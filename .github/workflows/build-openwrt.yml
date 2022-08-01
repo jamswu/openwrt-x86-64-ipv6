@@ -26,8 +26,8 @@ env:
   CONFIG_FILE: .config
   DIY_OP1_SH: loadpackets.sh
   DIY_OP2_SH: customerconfig.sh
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: false
+  UPLOAD_BIN_DIR: true
+  UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
