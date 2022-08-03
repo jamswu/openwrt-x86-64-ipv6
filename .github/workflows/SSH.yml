@@ -1,5 +1,6 @@
 name: Ubuntu
 on:
+  repository_dispatch:
   watch:
     types: started
 jobs:
