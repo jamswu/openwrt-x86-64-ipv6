@@ -1,8 +1,14 @@
 name: Ubuntu
+
+env:
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
+
 on:
   repository_dispatch:
   watch:
     types: started
+  
 jobs:
   check:
     runs-on: ubuntu-latest
