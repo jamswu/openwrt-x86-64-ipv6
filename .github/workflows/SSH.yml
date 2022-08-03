@@ -6,9 +6,9 @@ env:
 
 on:
   repository_dispatch:
-  
-  #watch:
-  #  types: started
+  workflow_dispatch:
+  watch:
+    types: started
   
 jobs:
   check:
@@ -33,5 +33,5 @@ jobs:
       run: |
         echo ${{ steps.getHash.outputs.commitHash }} | tee .commitHash
       
-   # - name: SSH connection to Actions
-   #   uses: P3TERX/ssh2actions@v1.0.0
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
