@@ -8,8 +8,15 @@ sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/kenzo/luci-theme-tomato/root/etc
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/kenzo/luci-theme-mcat/files/30_luci-theme-mcat
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/kenzo/luci-theme-ifit/files/10_luci-theme-ifit
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/kenzo/luci-theme-neobird/root/etc/uci-defaults/30_luci-theme-neobird
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-btmod/root/etc/uci-defaults/luci-theme-btmod
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-ifit/files/10_luci-theme-ifit
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomcat/files/30_luci-theme-opentomcat
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomato/root/etc/uci-defaults/30_luci-theme-opentomato
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentopd/root/etc/uci-defaults/30_luci-theme-opentopd
+
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-btmod/root/etc/uci-defaults/luci-theme-btmod
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-ifit/files/10_luci-theme-ifit
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomcat/files/30_luci-theme-opentomcat
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomato/root/etc/uci-defaults/30_luci-theme-opentomato
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentopd/root/etc/uci-defaults/30_luci-theme-opentopd
+
+sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-btmod/root/etc/uci-defaults/luci-theme-btmod
+sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-ifit/files/10_luci-theme-ifit
+sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-opentomcat/files/30_luci-theme-opentomcat
+sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-opentomato/root/etc/uci-defaults/30_luci-theme-opentomato
+sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-opentopd/root/etc/uci-defaults/30_luci-theme-opentopd
