@@ -71,6 +71,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_OP1_SH
 
     - name: Update feeds
+      continue-on-error: true
       run: cd  openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
