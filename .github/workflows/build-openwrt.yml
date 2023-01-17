@@ -108,6 +108,7 @@ jobs:
       id: compile
       run: |
         cd openwrt
+        sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.15/g" target/linux/x86/Makefile
         echo -e "$(nproc) thread compile"
         make -j$(nproc) V=s||make -j4 v=s || make -j8
         echo "::set-output name=status::success"
