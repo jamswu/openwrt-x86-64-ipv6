@@ -13,7 +13,7 @@ sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-btmod/root/e
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-ifit/files/10_luci-theme-ifit
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomcat/files/30_luci-theme-opentomcat
 sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentomato/root/etc/uci-defaults/30_luci-theme-opentomato
-sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentopd/root/etc/uci-defaults/30_luci-theme-opentopd
+#sed -i '/luci.main.mediaurlbase/ s/^/#/g' feeds/opentopd/luci-theme-opentopd/root/etc/uci-defaults/30_luci-theme-opentopd
 
 #sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-btmod/root/etc/uci-defaults/luci-theme-btmod
 #sed -i '/luci.main.mediaurlbase/ s/^/#/g' package/sirpdboy-package/luci-theme-ifit/files/10_luci-theme-ifit
